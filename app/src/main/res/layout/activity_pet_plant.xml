@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#FFffff"
+  android:orientation="vertical"
+  android:padding="30dp">
+
+  <Button
+    android:id="@+id/button_back_pet"
+    android:layout_width="20dp"
+    android:layout_height="20dp"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/back" />
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:fontFamily="@font/call"
+      android:text="반려 동물과 관련된 식물"
+      android:textAlignment="center"
+      android:textSize="25dp" />
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:orientation="vertical">
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_gravity="center"
+          android:layout_marginTop="10dp"
+          android:orientation="horizontal">
+
+          <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/marimo" />
+
+          <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+              android:id="@+id/button_pet_marimo"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:layout_marginTop="20dp"
+              android:background="@drawable/btn_pink_2"
+              android:fontFamily="@font/call"
+              android:text="마리모"
+              android:textColor="#165a1e"
+              android:textStyle="bold" />
+
+            <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:fontFamily="@font/call"
+              android:gravity="center_horizontal"
+              android:text="반려동물이 집안으로 돌아다녀도 \n전혀 문제 없어요."
+              android:textAlignment="center"
+              android:textSize="12dp"
+              android:textStyle="bold" />
+          </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_gravity="center"
+          android:layout_marginTop="10dp"
+          android:orientation="horizontal">
+
+          <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/cat" />
+
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+              android:id="@+id/button_pet_catleaf"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:layout_marginTop="20dp"
+              android:background="@drawable/btn_pink_2"
+              android:fontFamily="@font/call"
+              android:text="캣닢"
+              android:textColor="#165a1e"
+              android:textStyle="bold" />
+
+            <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:fontFamily="@font/call"
+              android:gravity="center_horizontal"
+              android:text="실내에서 자주 생활하는 고양이의 \n스트레스를 해소해줍니다."
+              android:textAlignment="center"
+              android:textSize="12dp"
+              android:textStyle="bold" />
+          </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_gravity="center"
+          android:layout_marginTop="10dp"
+          android:orientation="horizontal">
+
+          <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/olivetree" />
+
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+              android:id="@+id/button_eat_Olivetree"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:layout_marginTop="20dp"
+              android:background="@drawable/btn_pink_2"
+              android:fontFamily="@font/call"
+              android:text="올리브나무"
+              android:textColor="#165a1e"
+              android:textStyle="bold" />
+
+            <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:fontFamily="@font/call"
+              android:gravity="center_horizontal"
+              android:text="반려동물에게 해가 될 수 있는 식물이에요."
+              android:textAlignment="center"
+              android:textSize="12dp"
+              android:textStyle="bold" />
+          </LinearLayout>
+        </LinearLayout>
+      </LinearLayout>
+    </LinearLayout>
+  </LinearLayout>
+</LinearLayout>

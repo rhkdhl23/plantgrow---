@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="400"
+    android:fromYDelta="-100%p"
+    android:toYDelta="0%p" />
+
+<!--duration: 애니메이션이 실행되는 시간
+    from/to : 애니메이션의 방향
+    상단y값이 -100%dptj 0%까지  움직이므로 안보였다가 다시 아래에서 내려오는 애니메이션이라 예상
+-->

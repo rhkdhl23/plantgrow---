@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "55793018204",
+    "firebase_url": "https://realreal-26ef8.firebaseio.com",
+    "project_id": "realreal-26ef8",
+    "storage_bucket": "realreal-26ef8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55793018204:android:de3725b0b36049d4f18d99",
+        "android_client_info": {
+          "package_name": "com.example.realreal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55793018204-cr5v8qut1es2o678kejvt9a5d0rdbh0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDivg-JObfETDBnKoTCpBRPt_WNXVz7ZQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55793018204-cr5v8qut1es2o678kejvt9a5d0rdbh0k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

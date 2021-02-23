@@ -1,0 +1,45 @@
+<resources>
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">#5d5d5d</item>
+    <item name="colorPrimaryDark">#000000</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    <item name="colorControlNormal">#5d5d5d</item>
+    <item name="android:windowBackground">@color/colorWindowBackground</item>
+
+  </style>
+
+  <!--    WaterMainActivity-->
+  <style name="Theme.MyDiaglog" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+  </style>
+
+  <style name="AppTheme1" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">#ffffff</item>
+
+  </style>
+
+  <style name="TabTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">#FFCBCB</item>                                <!-- 배경 -->
+    <item name="android:textColorPrimary">#000000</item>       <!-- 탭바 선택된 텍스트 -->
+    <item name="android:textColorSecondary">#ffffff</item>     <!-- 탭바 텍스트 -->
+  </style>
+
+  <style name="NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">#FFCBCB</item>                                <!-- 배경 -->
+  </style>
+
+  <style name="CalendarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">#165a1e</item>
+    <item name="android:textColorPrimary">#000000</item>
+    <item name="colorAccent">#165a1e</item>
+  </style>
+</resources>
+
+
+

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="#FFffff">
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/back"
+        android:id="@+id/button_back_inside" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="실내장식으로 꾸미기 좋은 식물"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:fontFamily="@font/call"
+        android:layout_gravity="center" />
+
+        <LinearLayout
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/tillandsia"/>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <Button
+                        android:layout_marginTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="틸란드시아"
+                        android:textStyle="bold"
+                        android:textColor="#165a1e"
+                        android:fontFamily="@font/call"
+                        android:id="@+id/button_inside_tillandsia"
+                        android:background="@drawable/btn_pink_2"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:textSize="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/call"
+                        android:text="밤이 되면 호흡작용을 통해 이산화 탄소를 \n흡수하고 산소를 배출하는 공기정화식물로 \n실내에서 키우기 적합합니다"
+                        android:gravity="center_horizontal" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/maginata" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_marginTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="드라세나 마지나타"
+                        android:textColor="#165a1e"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/call"
+                        android:id="@+id/button_inside_dracenamaginata"
+                        android:background="@drawable/btn_pink_2"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:textSize="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/call"
+                        android:text="삐죽삐죽한 공룡 등뿔을 연상시켜서 조형미 때문에 \n인기가 높아요!"
+                        android:gravity="center_horizontal" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/sofora"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <Button
+                        android:layout_marginTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="소포라"
+                        android:textColor="#165a1e"
+                        android:fontFamily="@font/call"
+                        android:textStyle="bold"
+                        android:id="@+id/button_inside_sofora"
+                        android:background="@drawable/btn_pink_2"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/call"
+                        android:textStyle="bold"
+                        android:textSize="10dp"
+                        android:text="일반 나무들과는 달리 황금색 느낌의 갈색 \n가지들 위에 귀여운 잎이 자랍니다!"
+                        android:gravity="center_horizontal" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/action_alarm"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/alarm"
+        android:title="Alarm" />
+
+    <Button
+        android:id="@+id/action_catbot"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/chatbot"
+        android:title="Chatbot" />
+
+
+    <Button
+        android:id="@+id/action_main"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/home"
+        android:title="Write" />
+
+    <Button
+        android:id="@+id/action_user"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/user"
+        android:title="UserInfo" />
+
+
+</LinearLayout>

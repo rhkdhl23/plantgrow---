@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_marginTop="50dp"
+            android:id="@+id/loading_animation"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="loading.json"
+            app:lottie_loop="true"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:layout_marginTop="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Made by 무럭 무럭"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:layout_gravity="bottom"
+            android:fontFamily="@font/call"
+            tools:ignore="RtlCompat" />
+</LinearLayout>

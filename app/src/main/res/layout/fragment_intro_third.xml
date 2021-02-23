@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+        <TextView
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/call"
+            android:text="매일 달라지는 "
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/call"
+            android:text="식물의 성장을"
+            android:textColor="#165a1e"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/call"
+                android:gravity="center_horizontal"
+                android:text=" 기록하고"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+        <TextView
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/call"
+            android:text=""
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+            <TextView
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/call"
+            android:text="식물에게 물주는 날"
+            android:textColor="#165a1e"
+                android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+            <TextView
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/call"
+            android:text="도 기록해보아요."
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_marginTop="70dp"
+        android:id="@+id/third_animation"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="calendar.json"
+        app:lottie_loop="true"/>
+</LinearLayout>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.realreal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+      <activity android:name=".activity.ViewActivity" />
+        <activity android:name=".PlantList.sunnot_stuki_Info" />
+        <activity android:name=".PlantList.sunnot_peperomia_Info" />
+        <activity android:name=".PlantList.sunnot_moonshine_Info" />
+        <activity android:name=".PlantList.pet_olivetree_Info" />
+        <activity android:name=".PlantList.pet_marimo_Info" />
+        <activity android:name=".PlantList.pet_catleaf_Info" />
+        <activity android:name=".PlantList.inside_tillandsia_Info" />
+        <activity android:name=".PlantList.inside_sofora_Info" />
+        <activity android:name=".PlantList.inside_dracenamaginata_Info" />
+        <activity android:name=".PlantList.eat_rosemary_Info" />
+        <activity android:name=".PlantList.eat_leaf_Info" />
+        <activity android:name=".PlantList.eat_bean_Info" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="google.com"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".Home.SignUpActivity"
+            android:theme="@style/NoActionBar" />
+        <activity android:name=".activity.Plant_Add_Activity" />
+        <activity
+            android:name=".Home.PasswordResetActivity"
+            android:theme="@style/NoActionBar" /> <!-- <activity android:name=".activity.Flant_select_Activity" android:theme="@style/NoActionBar"/> -->
+        <!--  -->
+      <activity
+            android:name=".activity.GalleryActivity"
+            android:theme="@style/NoActionBar" />
+      <!--  -->
+
+      <activity
+            android:name=".Chatbot.Chatbot_01_Activity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".activity.UserActivity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".Chatbot.Chatbot_02_Activity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".Home.Loading_MainActivity"
+            android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.yoonbae.plantingplanner.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.realreal.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider> <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2042016444405582~9860116643" />
+
+        <activity android:name=".PlantList.Pet_plantActivity" />
+        <activity android:name=".PlantList.Sunnot_plantActivity" />
+        <activity android:name=".PlantList.Eat_plantActivity" />
+        <activity android:name=".PlantList.Inside_plantActivity" />
+        <activity android:name=".PlantList.Plant_list_Activity" />
+        <activity android:name=".Calender.CalendarActivity" />
+        <activity android:name=".Home.Intro_MainActivity" /> <!-- ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd -->
+
+        <activity android:name=".Alarm.activities.AlarmMainActivity"/>
+        <activity android:name=".Alarm.activities.RingActivity"></activity>
+
+        <receiver android:name=".Alarm.AlarmBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".service.AlarmService" />
+        <service android:name=".service.RescheduleAlarmsService" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.yoonbae.plantingplanner.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+      <activity android:name=".activity.AddActivity" />
+    </application>
+
+</manifest>

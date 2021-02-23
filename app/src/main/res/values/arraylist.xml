@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="test">
+        <!--        <item>Your Plant</item>-->
+        <item>마리모</item>
+        <item>캣닢</item>
+        <item>올리브 나무</item>
+        <item>스투키</item>
+        <item>페파로미아</item>
+        <item>문샤인</item>
+        <item>드라세나 마지나타</item>
+        <item>소포라</item>
+        <item>틸란드시아</item>
+        <item>콩나물</item>
+        <item>상추</item>
+        <item>로즈마리</item>
+    </string-array>
+</resources>

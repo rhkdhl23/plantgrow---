@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:textSize="20dp"
+            android:fontFamily="@font/call"
+            android:textAlignment="center"
+            android:text="식물에게 문제가 생긴다면"
+            android:layout_marginLeft="0dp"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+        <TextView
+            android:textSize="20dp"
+            android:fontFamily="@font/call"
+            android:textAlignment="center"
+            android:text="챗봇"
+            android:textStyle="bold"
+            android:textColor="#165a1e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:textSize="20dp"
+            android:fontFamily="@font/call"
+            android:textAlignment="center"
+            android:text="에게 물어보세요."
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/call"
+            android:textAlignment="center"
+            android:text="또한, 실시간으로 다른 사용자들과"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+        <TextView
+            android:textSize="20dp"
+            android:fontFamily="@font/call"
+            android:textAlignment="center"
+            android:text="식물에 대해 소통"
+            android:textColor="#165a1e"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:textSize="20dp"
+            android:fontFamily="@font/call"
+            android:textAlignment="center"
+            android:text="도 해보세요. :)"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/five_animation"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="70dp"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="sms_exchanged.json"
+        app:lottie_loop="true"/>
+</LinearLayout>

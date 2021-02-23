@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#165a1e</color>
+    <color name="colorWindowBackground">#FFffff</color>
+    <color name="colorTabNormal">#666666</color>
+    <color name="colorTabSelected">#cc6666</color>
+
+
+    <color name="color1">#424549</color>
+    <color name="color2">#7e455e</color>
+    <color name="color3">#796e25</color>
+    <color name="color4">#59717c</color>
+</resources>
